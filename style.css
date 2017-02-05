@@ -1,0 +1,73 @@
+/* Beaches website stylesheet */
+
+html body {
+	padding: 0;
+	margin: 0px;
+	font-family: 'Raleway';
+}
+
+.header .container {
+	background-image: url(https://static.pexels.com/photos/111085/pexels-photo-111085.jpeg);
+	background-size: cover;
+	background-position: center;
+	padding: 50px;
+	height: 600px;
+	border-bottom: 5px solid #7D8383;
+	text-align: right;
+}
+
+.header h1 {
+
+	font-weight: 100;
+	font-size: 65px;
+	padding-top: 300px;
+	padding-right: 10px;
+	color: white;
+	border: 3px solid white;
+	opacity: .7;
+}
+
+.header h2 {
+	text-align: right;
+	padding-right: 10px;
+	color: white;
+	opacity: .7;
+}
+
+.beaches {
+	text-align: center;
+}
+ul {
+	text-align: center;
+}
+li {
+	list-style: none;
+	display: inline-block;
+	border-radius: 2px;
+	background-color: white;
+	/*border-right: 4px solid #7D8383;
+	border-left: 4px solid #7D8383;*/
+	padding: 0px 10px 0px 10px;
+	margin: 10px;
+}
+
+ .beaches li a {
+ 	text-decoration: none;
+ 	color: #333;
+
+
+}
+
+a:hover {
+	
+	border-bottom: 1.3px solid black;
+}
+
+.row {
+	padding: 20px;
+}
+
+.footer {
+	text-align: right;
+}
+
